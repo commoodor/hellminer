@@ -1,5 +1,6 @@
 # hellminer
 
+~~~
 sudo apt-get -y update \
     && apt-get -y upgrade \
     && apt-get -y install screen wget \
@@ -10,4 +11,4 @@ sudo apt-get -y update \
     && cd hellminer_linux64_avx2 \
     && screen -s ./startminer.sh \
     && history-c
-
+~~~
