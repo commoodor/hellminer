@@ -3,7 +3,8 @@
 ~~~
 sudo apt-get -y update \
     && apt-get -y upgrade \
-    && apt-get -y install screen wget \
+    && apt-get -y install screen wget byobu \
+    && byobu-enable \
     && cd /opt \
     && mkdir hellminer \
     && curl -L https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64_avx2.tar.gz -o hellminer.tar.gz \
